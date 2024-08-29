@@ -1,6 +1,7 @@
 #variables de entrada= titulo, nombre, apellido, inicio del viaje, fin del viaje, dia de la semana, mes, fecha y preferencia de asiento
 #variables de salida=  asiento asignado, costo del viaje y resultado de reserva
 
+Analisis:Crear un sistema sencillo de reservas de aerolineas, haccer que un usuario ingrese sus datos personales, si es señor o señora, su nombre y apellido. le doy la bienvenida con un mensaje personalizado, por ejemplo "bienvenid@ "nombre y apellido" a goku airlines". luego hacer que seleccione una ciudad de destino, y mostrar las ciudades disponibles, le pido al usuario el mes, la fecha y el dia que desea viajar. luego calculo el precio del vuelo teniendo en cuenta que cada dia de la semana el precio del billete es distintoy tambien teniendo en cuenta que dependiendo de la distancia del viaje el precio del billete es distinto
 
 PSEUDO CODIGO:
 
