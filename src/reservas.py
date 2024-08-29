@@ -4,7 +4,7 @@ variables de entrada=
 
 PSEUDO CODIGO:
 
-                                                                                                    Inicio
+                                                                                                     Inicio
 
     #Obtener información del usuario
         ##Imprimir "¿Su titulo es (Sr. o Sra.)?: "
@@ -82,7 +82,7 @@ PSEUDO CODIGO:
 
 
 
-                                                                                                         Fin
+                                                                                                   Fin
 def main():
     #Tu código va aquí
     pass # borra esta línea cuando con inicies tu código
