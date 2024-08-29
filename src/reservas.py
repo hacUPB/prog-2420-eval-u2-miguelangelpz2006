@@ -36,8 +36,6 @@ PSEUDO CODIGO:
 
         ##Si díaMes < 1 o díaMes > 30
             Imprimir "Día del mes inválido. Debe estar entre 1 y 30."
-            Retornar None, None, None
-
         ##Obtener distancia
           #Si (origen, destino) está en distancias
             #Definir distancia como distancias[(origen, destino)]
@@ -77,7 +75,7 @@ PSEUDO CODIGO:
 
          #mostrar asientoAsignado
 
-    ## Mostrar la reserva
+    ## Mostrar resultado de reserva
         Imprimir "Tu vuelo de "origen" a "destino" del "díaSemana" "díaMes" de "mes" está reservado."
         Imprimir "Precio del boleto: $" + precio
         Imprimir "Tu asiento es: " asientoAsignado
