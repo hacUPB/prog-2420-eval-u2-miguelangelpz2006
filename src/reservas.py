@@ -1,10 +1,10 @@
-variables de entrada=
-
+#variables de entrada= titulo, nombre, apellido, inicio del viaje, fin del viaje, dia de la semana, mes, fecha y preferencia de asiento
+#variables de salida=  asiento asignado, costo del viaje y resultado de reserva
 
 
 PSEUDO CODIGO:
 
-                                                                                                     Inicio
+                                                                                          Inicio
 
     #Obtener información del usuario
         ##Imprimir "¿Su titulo es (Sr. o Sra.)?: "
@@ -24,7 +24,7 @@ PSEUDO CODIGO:
         ##Imprimir "Ingresa tu destino (Medellín, Bogotá, Cartagena): "
         ##Leer destino
 
-        Si origen no está en las ciudades disponibles o destino no está en las ciudades disponibles o origen es igual a destino
+        ##Si origen no está en las ciudades disponibles o destino no está en las ciudades disponibles o origen es igual a destino
             Imprimir "Origen o destino inválido."
 
         ##Imprimir "Ingrese el día de la semana (lunes, martes, miercoles, jueves, viernes): "
@@ -82,7 +82,7 @@ PSEUDO CODIGO:
 
 
 
-                                                                                                   Fin
+                                                                                            Fin
 def main():
     #Tu código va aquí
     pass # borra esta línea cuando con inicies tu código
