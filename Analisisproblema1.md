@@ -70,7 +70,7 @@ PSEUDO CODIGO:
             #tipoAsiento = "B"
 
         ## Seleccionar número de asiento aleatorio
-         #Definir número asiento como número aleatorio entre 1 y 29
+         #Definir número asiento como número aleatorio entre 1 y 29 (con random.radint(1,29)
          #asientoAsignado = númeroAsiento + tipoAsiento
 
          #mostrar asientoAsignado
