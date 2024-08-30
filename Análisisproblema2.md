@@ -7,14 +7,14 @@ Analisis: en un programa llamado satelite.py se va a realizar el proyecto, el ob
 # PSEUDOCODIGO:
 
                                                                   #inicio
-    #Definir variables
-        ##imprimir:"Ingrese altitud_inicial en kilometros"
-        ##Leer altitud inicial
-        ##imprmir: "ingrese coeficiente_de_arrastre valor decimal pequeño"
-        ##Leer coeficiente_de_arrastre
-        ##imprimir:"Ingrese altitud minima de seguridad en kilometros"
+    # Definir variables
+        ## imprimir:"Ingrese altitud_inicial en kilometros"
+        ## Leer altitud inicial
+        ## imprmir: "ingrese coeficiente_de_arrastre valor decimal pequeño"
+        ## Leer coeficiente_de_arrastre
+        ## imprimir:"Ingrese altitud minima de seguridad en kilometros"
         
-    #Bucle para simular orbita
-        
+    # Bucle para simular orbita
+        ## orbita 
       
                                                                   #fin
