@@ -6,7 +6,7 @@ Analisis: en un programa llamado satelite.py se va a realizar el proyecto, el ob
 
 # PSEUDOCODIGO:
 
-                                                                                  #inicio
+                                                                  #inicio
     #Definir variables
         ##imprimir:"Ingrese altitud_inicial en kilometros"
         ##Leer altitud inicial
@@ -17,3 +17,4 @@ Analisis: en un programa llamado satelite.py se va a realizar el proyecto, el ob
     #Bucle para simular orbita
         
       
+                                                                  #fin
