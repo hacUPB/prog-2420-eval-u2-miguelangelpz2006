@@ -7,14 +7,26 @@ Analisis: en un programa llamado satelite.py se va a realizar el proyecto, el ob
 # PSEUDOCODIGO:
 
                                                                   #inicio
-    # Definir variables
-        ## imprimir:"Ingrese altitud_inicial en kilometros"
-        ## Leer altitud inicial
-        ## imprmir: "ingrese coeficiente_de_arrastre valor decimal pequeño"
-        ## Leer coeficiente_de_arrastre
-        ## imprimir:"Ingrese altitud minima de seguridad en kilometros"
+    #Definir variables
+        ##imprimir:"Ingrese altitud_inicial en kilometros"
+        ##Leer altitud inicial
+        ##imprmir: "ingrese coeficiente_de_arrastre valor decimal pequeño"
+        ##Leer coeficiente_de_arrastre
+        ##imprimir:"Ingrese altitud minima de seguridad en kilometros"
         
-    # Bucle para simular orbita
-        ## orbita 
-      
+    #Bucle para simular orbita
+        ##orbita =0
+        ##altitud_perdida =0
+        ##altitudes = []
+        ##while altitud_actual > altitud_minima_seguridad
+            ### Guardar la altitud actual en la lista
+            ###altitud_perdida = coeficiente_arrastre * altitud_actual
+            ###altitud_actual = altitud_actual - altitud_perdida
+            ###coeficiente_de_arrastre = coeficiente_de_arrastre + 0.001
+            ###imprimir "orbita"+"altitud_actual"km +"altitud_perdida"km
+            ### if altitud_perdida < 0.01
+              ####imprimir "El satelite se ha estabilizado en la orbita {orbita}"
+            ###orbitas_completadas= len(altitudes)
+            ###imprimir "numero de orbitas completadas orbitas_completadas " 
+          
                                                                   #fin
