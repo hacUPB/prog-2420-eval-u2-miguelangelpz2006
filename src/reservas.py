@@ -1,8 +1,4 @@
-
-def main():
-    #Tu código va aquí
-    pass # borra esta línea cuando con inicies tu código
-hola mundo
-
-if __name__ == "__main__":
-    main()
+nombre = str(input("ingrese su nombre "))
+apellido = int(input("ingrese su apellido"))  
+print("hola"nombre)
+edad = int(input("ingrese su edad"))
