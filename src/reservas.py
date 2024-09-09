@@ -59,8 +59,8 @@ while True:
     except ValueError:
         print("Vuelve a intentarlo por favor. :)")
 
-dia= str(input("ingrese el dia de la semana (lunes, martes, miercoles, jueves, viernes)"))
-mes= str(input("Introduzca el mes: (enero, febrero, marzo, abril, mayo, junio, juilo, agosto, septiembre, octubre, noviembre, diciembre)"))
+dia= str(input("ingrese el dia de la semana (lunes, martes, miercoles, jueves, viernes)")).strip().lower()
+mes= str(input("Introduzca el mes: (enero, febrero, marzo, abril, mayo, junio, juilo, agosto, septiembre, octubre, noviembre, diciembre)")).strip().lower()
 while True:
     try:
         fecha = int(input("Introduzca la fecha entre 1 y 30: "))
@@ -77,15 +77,33 @@ while True:
 if empieza == "Bogotá":
     if lugar == "Cartagena":
         print("El viaje tendrá una distancia de 657 km.")
+        distancia = 657
     elif lugar == "Medellín":
         print("El viaje tendrá una distancia de 240 km.")
+        distancia = 240
 elif empieza == "Cartagena":
     if lugar == "Bogotá":
         print("El viaje tendrá una distancia de 657 km.")
+        distancia = 657
     elif lugar == "Medellín":
         print("El viaje tendrá una distancia de 461 km.")
+        distancia = 461
 elif empieza == "Medellín":
     if lugar == "Bogotá":
         print("El viaje tendrá una distancia de 657 km.")
+        distancia = 657
     elif lugar == "Cartagena":
         print("El viaje tendrá una distancia de 461 km.")
+        distancia = 461
+    
+
+if distancia < 400:
+    if dia in ("lunes", "martes", "miercoles", "jueves"):
+        precio = 79900
+    elif dia in ("viernes", "sabado", "domingo"):
+        precio = 119900
+elif distancia > 400:
+    if dia in ("lunes", "martes", "miercoles", "jueves"):
+        precio = 156900
+    elif dia in ("viernes", "sabado", "domingo"):
+        precio= 213000
