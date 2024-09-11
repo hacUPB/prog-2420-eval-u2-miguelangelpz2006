@@ -12,3 +12,5 @@ me senté toda la tarde a realizar las problematicas y verifiqué un poco la man
 
 martes 10 de spetiembre
 vimos funciones en phyton a mayor profundidad
+miercoles 11 de septiembre
+Un dia antes de entregar el proyecto lo terminé por completo y probé su funcionamiento 
